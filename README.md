@@ -1,16 +1,60 @@
-# React + Vite
+# Gidy Profile - Frontend (UI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React + Vite frontend** for the Gidy Profile application. It handles all user interface features including profile viewing, updating, and image uploads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 Tech Stack
 
-## React Compiler
+- React 18 + Vite
+- Tailwind CSS
+- Axios for API calls
+- React Router for client-side routing
+- React Toastify for notifications
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Innovation Feature
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Seamless Profile Management**
+
+- Dynamic profile viewing and updating without page reload
+- Integrated image upload and instant display
+- Fully responsive UI with Tailwind
+
+---
+
+## 🛠️ Setup Instructions
+
+### Prerequisites
+
+- Node.js >= 18
+- npm
+- Git
+- Backend API URL (deployed locally or on Render)
+
+---
+
+### Local Development
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Sooriya-V-N/GIDY-PROFILE-UI.git
+cd GIDY-PROFILE-UI
+```
+
+2. Install Dependencies
+```bash
+npm install
+```
+
+3. Create Environment Variable File
+```bash
+VITE_SERVER_URL=<Server URL>
+```
+
+4. Start Development Server
+```bash
+npm run dev
+```
