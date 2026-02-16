@@ -4,7 +4,7 @@ import {
   updateProfile,
   updateProfileImage,
 } from "../services/profileApi";
-import { Check, X, Camera, Trash2, Plus } from "lucide-react";
+import { Check, X, Camera, Trash2, Plus, Loader } from "lucide-react";
 import { toast } from "react-toastify";
 
 function MyProfile() {
@@ -137,9 +137,7 @@ function MyProfile() {
 
   if (loading)
     return (
-      <div className="min-h-screen flex items-center justify-center text-lg font-medium">
-        Loading profile...
-      </div>
+      <Loader />
     );
 
   return (
