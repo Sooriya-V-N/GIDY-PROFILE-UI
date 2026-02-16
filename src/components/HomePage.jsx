@@ -8,12 +8,6 @@ function HomePage() {
       {/* Navbar */}
       <nav className="flex justify-between items-center px-6 md:px-16 py-5">
         <h1 className="text-2xl font-bold text-gray-900">Gidy</h1>
-        <button
-          onClick={() => navigate("/myprofile")}
-          className="bg-black text-white px-5 py-2 rounded-lg hover:bg-gray-800 transition"
-        >
-          View Profile
-        </button>
       </nav>
 
       {/* Hero Section */}
@@ -32,7 +26,7 @@ function HomePage() {
           onClick={() => navigate("/myprofile")}
           className="mt-8 bg-black text-white px-8 py-3 rounded-xl text-lg hover:bg-gray-800 transition duration-300"
         >
-          View My Profile
+          My Profile
         </button>
       </section>
 
