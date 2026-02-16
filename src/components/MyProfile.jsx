@@ -3,6 +3,7 @@ import { getProfile, updateProfile } from "../services/profileApi";
 import ProfileHeader from "../components/profile/ProfileHeader";
 import SkillsSection from "../components/profile/SkillsSection";
 import SocialLinks from "../components/profile/SocialLinks";
+import Loader from "./Loader";
 
 function MyProfile() {
   const [profile, setProfile] = useState(null);
@@ -32,7 +33,7 @@ function MyProfile() {
     }
   };
 
-  if (!profile) return <div className="text-center mt-20">Loading...</div>;
+  if (!profile) return <Loader />;
 
   return (
     <div className="min-h-screen bg-gray-50 py-10 px-4 md:px-16">
