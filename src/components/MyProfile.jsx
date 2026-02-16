@@ -4,8 +4,9 @@ import {
   updateProfile,
   updateProfileImage,
 } from "../services/profileApi";
-import { Check, X, Camera, Trash2, Plus, Loader } from "lucide-react";
+import { Check, X, Camera, Trash2, Plus } from "lucide-react";
 import { toast } from "react-toastify";
+import Loader from "./Loader.jsx"
 
 function MyProfile() {
   const [profile, setProfile] = useState(null);
